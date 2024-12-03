@@ -4,7 +4,7 @@ var http = require('http');
 http
   .createServer(function (req, res) {
     let currentDateTime = new Date(); // Get the current date and time
-    console.log(currentDateTime)
+    console.log("Hiiiiiiiiiiiiiiiiiiiiiiiii",currentDateTime)
     res.write('Hi from Cloud\n'); // Write the initial response
     res.write(`Current Date and Time: ${currentDateTime}`); // Display the current date and time
     res.end(); // End the response
